@@ -67,6 +67,21 @@ class DB{
         return $this;
     }
 
+    public function action($action, $table, $where = array())
+    {
+        // todo
+    }
+
+    public function get($table, $where)
+    {
+        // todo
+    }
+
+    public function delete($table, $where)
+    {
+        // todo
+    }
+
     public function error(){
         return $this->_error;
     }
